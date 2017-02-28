@@ -1,0 +1,292 @@
+.wrapper {
+    background-color: rgba(246, 246, 246, 1);
+    margin: 1%;
+    font-size: 9pt;
+}
+img {
+    max-width: 100%;
+}
+.header { 
+    background-color: rgba(246, 246, 246, 1);
+    width: 100%;
+    height: 380px;
+}
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 170px;
+}
+.menu_nav {
+    width: 120px;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    margin-right: 1%;
+}
+.menu_nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: 'Code light', arial;
+    font-size: 1.25em;
+}
+div.menu_nav:hover {
+    background-color: rgba(255, 234, 0, 1);
+}
+.logo {
+    float: left;
+    padding-left: 8%;
+    height: 170px;
+    line-height: 170px;
+}
+.logo a img {
+    vertical-align: middle;
+}
+.header_logo {
+    background: url('../img/header-logo.jpg') no-repeat;
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+.header_logo div {
+    background-color: rgba(66, 65, 70, 1);
+    margin-left: 8%;
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.title {
+    color: rgba(255, 234, 0, 1);
+    text-decoration: none;
+    font-size: 2em;
+    font-family: 'Century Gothic';
+    vertical-align: middle;
+    padding-left: 20px;  
+}
+.center {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.content {
+    width: 65%;
+}
+.text {
+    padding: 0 3%;
+}
+.text span {
+    background-color: rgba(66, 65, 71, 1);
+    padding: 0.5% 1%;
+    margin-bottom: 2%;
+}
+.text p {
+    text-align: justify;
+}
+.text hr {
+    color: rgba(205, 205, 205, 1);
+}
+.project img {
+    max-width: 33%;
+}
+.sidebar {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+.block_1 {
+    background-color: rgba(66, 65, 71, 1);
+    padding: 5% 5.5%;
+    margin-bottom: 2%;
+}
+.block_2 {
+    background-color: rgba(66, 65, 71, 1);
+    padding: 5% 5.5%;
+    margin-bottom: 2%;
+}
+.title_sidebar {
+    color: rgba(255, 234, 0, 1);
+    text-decoration: none;
+    font-family: 'Century Gothic';
+    vertical-align: middle;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    line-height: 1.05;
+    text-align: center;
+    font-weight: normal;
+}
+.sidebar_text {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 2%;
+}
+.sidebar_text p {
+    color: rgba(245, 245, 245, 1);
+    font-size: 1.4em;
+    margin: 0;
+    padding: 0;
+    margin-left: 1%;
+    text-transform: uppercase;
+}
+.news_date {
+    float: right;
+    font-family: "Century Gothic";
+    color: rgb(255, 234, 0);
+    font-size: 0.8em;
+}
+.block_3 {
+    background-color: rgba(66, 65, 71, 1);
+    padding: 5% 5.5%;
+    
+}
+.tags {
+    background-color: rgba(255, 234, 0, 1);
+    display: inline-block;
+    padding: 1%;
+    margin: 0 0.5% 0.5% 0;
+}
+.tags a {
+    font-family: "Century Gothic";
+    color: rgb(66, 65, 71);
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
+.footer {
+    background-color: rgba(65, 65, 70, 1);
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.about {
+    padding: 0 1% 0 5%;
+    width: 40%;
+}
+h3 {
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    line-height: 1.778;
+    text-align: left;
+}
+.about p {
+    font-size: 1em;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    line-height: 1.615;
+    text-align: left;
+}
+.about button {
+    font-size: 1.2em;
+    background-color: rgb(0, 0, 0);
+    width: 121px;
+    height: 38px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 0 2px 0 rgba(255, 234, 0, 1);
+    margin-bottom: 3px;
+}
+.about img {
+    margin-bottom: 1%;
+}
+.latest {
+    padding: 0 1% 0 5%;
+    width: 30%;
+}
+.latest_text {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 2%;
+}
+.latest_text p {
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    margin-left: 1%;
+}
+.latest img {
+    margin-top: 5%;
+
+}
+.latest_text p span {
+    color: rgba(235, 216, 19, 1);
+}
+.days {
+    font-size: 0.5em;  
+    font-family: "Century Gothic";
+    color: rgb(255, 234, 0);  
+}
+.social {
+    margin-bottom: 1%;
+}
+.social p {
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+}
+.contact {
+    padding: 0 1% 0 5%;
+    width: 30%;
+    
+}
+.contact p {
+    margin-left: 3%;
+}
+.contact input {
+    padding-top: 5%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 1px solid rgb(255, 234, 0);
+    outline: none;
+    color: rgb(255, 255, 255);
+}
+.contact button {
+    border: none;
+}
+.follow {
+    display: inline;
+}
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+}
+.copyright p {
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    padding: 0 1% 0 5%;
+    line-height: 65px;
+}
+.nav_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu_nav_footer {
+    width: 120px;
+    text-align: center;
+    line-height: 65px;
+    margin-right: 1%;
+}
+.menu_nav_footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: 'Code light', arial;
+    font-size: 1.25em;
+}
+.menu_nav_footer:hover {
+    background-color: rgba(255, 234, 0, 1);
+}
+.menu_nav_footer:hover a {
+    color: black; 
+}
